@@ -1,0 +1,75 @@
+.block {
+  background-image: repeating-linear-gradient(60deg, #c5c29b 0px, #c5c29b 20px, #cdc243 20px, #cdc243 40px, #4e490f 40px, #4e490f 60px, #4a642f 60px, #4a642f 80px, #264406 40px, #264406 40px, #6dc410 60px, #6dc410 60px), repeating-linear-gradient(-60deg, #c5c29b 0px, #c5c29b 20px, #cdc243 20px, #cdc243 40px, #4e490f 40px, #4e490f 60px, #4a642f 60px, #4a642f 80px, #264406 40px, #264406 40px, #6dc410 60px, #6dc410 60px);
+  background-blend-mode: multiply;
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+}
+
+.block1 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#04194e), color-stop(#2e498b), color-stop(#6783cb), to(#afc1f0));
+  background: linear-gradient(to top right, #04194e, #2e498b, #6783cb, #afc1f0);
+}
+
+.block3 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(7%, #1c4406), color-stop(65%, #439f10), color-stop(90%, #81ef45), to(#a8e08a));
+  background: linear-gradient(to bottom left, #1c4406 7%, #439f10 65%, #81ef45 90%, #a8e08a);
+}
+
+.block4 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: repeating-linear-gradient(45deg, #f69979 20px, #ac5b3d 40px, #f7926e 60px, #f2bca9 80px);
+}
+
+.block5 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: repeating-linear-gradient(90deg, #cdf6f6 0px, #cdf6f6 30px, #595c5c 30px, #595c5c 60px, #cdf6f6 60px, #cdf6f6 100px, #60f16b 100px, #60f16b 140px);
+}
+
+.block6 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: repeating-linear-gradient(90deg, #f69979 0px, #f69979 20px, #ac5b3d 20px, #ac5b3d 40px, #f7926e 40px, #f7926e 60px, #f2bca9 60px, #f2bca9 80px);
+}
+
+.block7 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: repeating-linear-gradient(60deg, #f69979 0px, #f69979 20px, #ac5b3d 20px, #ac5b3d 40px, #f7926e 40px, #f7926e 60px, #f2bca9 60px, #f2bca9 80px), repeating-linear-gradient(-60deg, #f69979 0px, #f69979 20px, #ac5b3d 20px, #ac5b3d 40px, #f7926e 40px, #f7926e 60px, #f2bca9 60px, #f2bca9 80px);
+  background-blend-mode: multiply;
+}
+
+.block8 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Le_Lizay_ile_de_Re_2.jpg");
+}
+
+.block9 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto 30px;
+  background-image: #5a5555;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Le_Lizay_ile_de_Re_2.jpg"), linear-gradient(-45deg, #594fe2 50%, #6d6fe2 90%, #7e86d4), linear-gradient(0deg, #f03131 40%, #e75454 80%, #f07d7d), linear-gradient(45deg, #6ac851 50%, #97e981 80%, #b8f0a8);
+  background-blend-mode: overlay;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.block9 p {
+  padding: 100px 0px 0px 0px;
+}
